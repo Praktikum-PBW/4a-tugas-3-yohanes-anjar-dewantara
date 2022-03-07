@@ -1,0 +1,50 @@
+/* Tugas 1 */
+.form {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  text-align: left;
+  margin-left: 200px;
+}
+
+#npm,
+#fullname {
+  height: 25px;
+  width: 850px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+textarea {
+  height: 100px;
+  width: 850px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+input[type="radio"] {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 200px;
+}
+
+select[name="prodi"] {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 30px;
+  width: 850px;
+  margin-left: 200px;
+}
+
+input[type="submit"] {
+  height: 25px;
+  width: 70px;
+  margin-left: 200px;
+  background-color: mediumblue;
+  color: white;
+}
