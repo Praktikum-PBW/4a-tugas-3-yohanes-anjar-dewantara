@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <style>
+        fieldset{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width: 350px;
+            height: 350px;
+            margin-top: 15%;
+            margin-left: 35%;
+            background-color: khaki;
+        }
+        h3{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+        }
+        .angka{
+            width: 200px;
+            margin-left: 50px;
+        }
+        #hasil{
+            width: 200px;
+            margin-left: 65px;
+        }
+        #tambah{
+            height: 30px;
+            width: 30px;
+            margin-left: 100px;
+        }
+        #kurang{
+            height: 30px;
+            width: 30px;
+        }
+        #bagi{
+            height: 30px;
+            width: 30px;
+        }
+        #kali{
+            height: 30px;
+            width: 30px;
+            margin-left: 200px;
+        }
+        #clear{
+            height: 30px;
+            width: 30px;
+        }
+        #modulus{
+            height: 30px;
+            width: 30px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+            <h3>Calculator</h3><br>
+            Angka1<input class="angka" type="text" id="angka1" /><br><br>
+                  Angka2<input class="angka" type="text" id="angka2" /><br><br>
+                  <input type="button" id="tambah" value="+"/>
+                  <input type="button" id="kurang" value="-"/>
+                  <input type="button" id="bagi" value="/"/><br><br>
+                  <input type="button" id="kali" value="x"/>
+                  <input type="button" id="modulus" value="%"/>
+                  <input type="button" id="clear" value="C"><br><br>
+                  Hasil<input type="text" id="hasil" disabled>
+    </fieldset>
+    <script src="function.js"></script>
+      
+
+</body>
+</html>

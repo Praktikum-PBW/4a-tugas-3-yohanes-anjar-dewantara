@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci</title>
+</head>
+<body>
+    <script>
+        const nomor = parseInt(prompt('Jumlah Bilangan Yang diinginkan: '));
+        let nomor1 = 0, nomor2 = 1, nextnomor;
+
+        console.log('Deret Fibonacci:');
+
+        for (let i = 1; i <= nomor; i++){
+            console.log(nomor1);
+            nextnomor = nomor1 + nomor2;
+            nomor1 = nomor2;
+            nomor2 = nextnomor;
+        }
+    </script>
+</body>
+</html>
